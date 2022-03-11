@@ -50,7 +50,7 @@ class Adminloginfix extends Module
         $this->displayName = $this->l('Fix \"Stay logged in\" and \"Forgot password\" on admin login page');
         $this->description = $this->l('Fix \"Stay logged in\" and \"Forgot password\" on admin login page');
 
-        $this->ps_versions_compliancy = array('min' => '1.7', 'max' => _PS_VERSION_);
+        $this->ps_versions_compliancy = array('min' => '1.6', 'max' => _PS_VERSION_);
     }
 
     /**
